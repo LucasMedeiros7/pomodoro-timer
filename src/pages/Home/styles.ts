@@ -13,7 +13,6 @@ export const HomeContainer = styled.main`
     gap: 3.5rem;
   }
 `
-
 export const BaseCountdownButton = styled.button`
   width: 100%;
   border: 0;
