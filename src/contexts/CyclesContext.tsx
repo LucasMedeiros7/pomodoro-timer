@@ -44,13 +44,14 @@ export function CyclesContextProvider({
       cycles: [],
       activeCycleId: null,
     },
-    () => {
+    (state) => {
       const storedStateAsJSON = localStorage.getItem(
         '@pomodoro-timer:cycles-state-1.0.1',
       )
-      if (storedStateAsJSON) {
-        return JSON.parse(storedStateAsJSON)
+      if (!storedStateAsJSON) {
+        return state
       }
+      return JSON.parse(storedStateAsJSON)
     },
   )
 
