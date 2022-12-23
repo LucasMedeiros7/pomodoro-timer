@@ -1,5 +1,12 @@
 ### Criando SPAs com ReactJS
 
+## Pomodoro Timer - Ignite
+
+<img src="https://uploaddeimagens.com.br/images/004/272/150/full/Captura_de_tela_2022-12-23_174407.png?1671828735" alt="Tela do timer com a contagem em andamento de 08:19 minutos" width="600"/>
+<br/>
+<img src="https://uploaddeimagens.com.br/images/004/272/154/full/Captura_de_tela_2022-12-23_175138.png?1671828879" alt="Tela de histórico dos ciclos completos, interrompidos e em andamento" width="600"/>
+
+
 **Aprendizados deste módulo**
 
 - [X]   Estilização com [Styled components](https://styled-components.com/)
